@@ -37,8 +37,7 @@ VITE_API_BASE_URL=http://your-api-url
 ```bash
 npm run dev
 
-
-## 📁 Project Structure
+# 📁 Project Structure
 
 src/
 │
