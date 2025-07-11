@@ -1,12 +1,57 @@
-# React + Vite
+# Transit Naija Admin Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A web-based admin dashboard for managing interstate trips and bookings in the Transit Naija transport platform.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Add, view, and manage bus trips
+- View operator data
+- Admin-only access
+- Built with modern UI
 
-## Expanding the ESLint configuration
+## 🛠️ Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React / React Router
+- Node.js + Express (API)
+- MongoDB (via Mongoose)
+- Railway / IP-hosted backend
+
+## 📦 Setup Instructions
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/Divine-Nelson/transit-admin-dashboard.git
+cd transit-admin-dashboard
+
+2. Install dependencies:
+
+```bash
+npm install
+
+3. Create a .env file in the root directory and add your base API URL:
+VITE_API_BASE_URL=http://your-api-url
+
+4. Start the development server:
+
+```bash
+npm run dev
+
+
+## 📁 Project Structure
+
+src/
+│
+├── assets/          # Images
+├── components/       # Reusable components
+├── config/           # API config 
+├── utils/           # API call logic
+├── App.js            # Main routing component
+└── screens/          # UI screens
+
+## 📌 Notes
+The API_BASE_URL.js file and .env file are ignored from Git for security reasons.
+
+
+## 🙏 Acknowledgments
+This project is currently under development as part of a larger transport solution.
