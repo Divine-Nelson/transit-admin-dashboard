@@ -31,8 +31,8 @@ VITE_API_BASE_URL=http://your-api-url
 4. Start the development server:
 npm run dev
 
-## 📁 Project Structure
 
+## 📁 Project Structure
 
 src/
 │
